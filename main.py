@@ -13,7 +13,7 @@ async def on_ready():
 async def on_message(message):
     if message.content.find("!hello") != -1:
         await message.channel.send("Hi")
-    if message.content.find("!owner") != -1:
+    if message.content.find("!dev") != -1:
         await message.channel.send("This bot is created by Piyush")
 
 keep_alive()
